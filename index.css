@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color: blue; */
+  background-color: black;
+}
+#navbar {
+  margin-top: 20px;
+  text-align: center;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+  border-radius: 10px;
+}
+.navbarItem {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  width: 310px;
+}
+#container {
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+}
+#leftContainer {
+  /* border: 5px solid red; */
+  width: 35%;
+  color: white;
+  line-height: 50px;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+.line {
+  display: flex;
+}
+.icon {
+  margin-right: 10px;
+}
+#rightContainer {
+  /* border: 5px solid green; */
+  width: 60%;
+}
+
+.spanClass {
+  /* font-size: 40px; */
+}
+
+.font {
+  font-size: 25px;
+}
